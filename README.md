@@ -31,8 +31,8 @@ gitlab-rails console -e production
 ### Run this command for new username and password as root is user 1
 ```
 user = User.where(id: 1).first
-user.password = 'your secret'
-user.password_confirmation = 'your secret'
+user.password = 'admin'
+user.password_confirmation = 'admin'
 user.save
 exit
 ```
