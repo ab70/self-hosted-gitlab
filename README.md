@@ -1,3 +1,5 @@
+### To setup using gitlab + runner + registry together use docker-compose version
+
 ## self-hosted gitlab CE via docker
 
 ## Setup
